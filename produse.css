@@ -1,0 +1,55 @@
+.produs{
+	
+	background-color:white;
+	width:17.5%;
+	margin:1%;
+	height:60%;
+	position: relative;
+	display: inline-block;
+    vertical-align:middle;
+	align-items: center;
+    justify-content: center;
+	
+}
+#product-container{
+	background-color: rgba(255,255,255,0.8);
+	display:inline-block;
+	width:100%;
+	
+	
+}
+
+#btnCos{
+	text-decoration:none;
+	background-color:rgba(0,250,0,0.3);
+	border-radius:6px;
+	font-weight:600;
+	margin-bottom:4%;
+	
+}
+
+.imgProd,.numProd,.pretProd,.butonCos { 
+text-align:center;
+}
+
+.cantitate{
+
+width:40px;
+text-align:center;
+
+}
+
+.pretProd,.numProd{
+	font-family:"Verdana";
+	color: rgb(179,0,0);
+
+}
+.pretProd,.numProd,.butonCos{
+		margin-top:10px;
+}
+
+.numProd{
+	font-weight:900;
+}
+	
+

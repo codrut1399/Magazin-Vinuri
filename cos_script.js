@@ -1,0 +1,1 @@
+document.getElementById("detalii").innerHTML='<span class="logare">Pentru a putea comanda, este necesar sa va autentificati apasand butonul de mai jos</span><br><br><br><a class="cartbutton" href="Login.php">Login</a><br><br><br>';

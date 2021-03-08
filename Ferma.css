@@ -1,0 +1,221 @@
+body{
+	background-image: url('751027.jpg');
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	background-attachment:fixed;
+	background-repeat:no-repeat;	
+	}
+
+/*Main Page START*/
+
+/*Navigation bar START*/
+.navbar ul{
+	list-style-type:none;
+	margin:0;
+	overflow:hidden;
+	background-color:green;
+	padding:0;
+	
+	
+}
+#homebutton{
+	float:left;
+	width:100px;
+	text-align:center;
+}
+		/*dropdown VINURI SI CONT*/
+.dropdownbtn{
+	display:block;
+	background-color:green;
+	font-size:20px;
+	color:white;
+	text-decoration:none;
+	padding:10px;
+	padding-left:20px;
+	padding-right:20px;
+	cursor:pointer;
+	border:none;
+	font-family:"Serif";
+	
+}
+.dropdownbtn:focus,.dropdownform:focus{
+	outline:none;
+}
+.dropdownform 
+{
+	display:block;
+	color:black;
+	background-color:#f9f9f9;
+	font-size:20px;
+	text-decoration:none;
+	padding:10px;
+	width:100%;
+	border:none;
+	font-family:"Serif";
+	text-align:left;
+}
+
+.dropdownform:hover{
+		background-color:rgb(163,225,163);
+}
+
+
+.dropdown {
+	float:right;
+  overflow: hidden;
+  
+}
+.left{
+	float:left;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 150px;
+  z-index: 1;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a:hover{
+	background-color:rgb(163,225,163);
+}
+.dropdown:hover .dropdownbtn{
+	background-color:rgb(163,225,163);
+}
+#logoutbtn{
+	color:red;
+}
+
+	
+       /* END dropdown VINURI SI CONT*/
+	   
+	   
+.leftbutton{
+	float:left;
+	width:100px;
+	text-align:center;
+}
+.rightbutton{
+	float:right;
+	margin-left:0;
+	width:100px;
+	text-align:center;
+}
+.navbara{
+	display:block;
+	background-color:green;
+	font-size:20px;
+	color:white;
+	text-decoration:none;
+	padding:10px;
+
+	}
+.navbara:hover{
+	background-color:rgb(163,225,163);
+}
+
+/*Navigation bar END*/
+	
+/*Breadcrumb START*/
+.breadcrumb{
+	background-image:url('breadcrumb.jpg');
+	height:200px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+	
+.breadcrumb h1{
+	color:white;
+	font-family:"Brush Script MT";
+	font-size:80px;
+}
+
+/*Breadcrumb END*/
+
+	
+#mainpage{
+	
+	width:95%;
+	
+	
+}
+
+
+/*Main Page END/
+
+////////////////////////////////////////////////////////
+
+/*Login START*/
+.error{ color:red;}
+.login-container{
+	
+	background-color: rgba(255,255,255,0.8);
+	width:50%;
+	height:500px;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50px;
+	margin-top:100px;
+}
+
+.login-form label{
+   font-size:20px;
+color:green;
+  }
+
+.login-form input[type=text]{
+   
+	padding:10px;
+	padding-right:300px;
+	
+	
+}
+.login-form input[type=password]{
+	padding:10px;
+	padding-right:300px;
+	color:green;
+}
+
+.login-form input[type=submit]{
+	color:white;
+	background-color:green;
+	font-size:20px;
+	margin-left:32%;
+}
+.loginbutton{
+	
+	color:white;
+	background-color:green;
+	padding:3px;
+	font-size:20px;
+	margin-left:29%;
+	border-left:2px solid gray;
+	border-top:2px solid gray;
+	border-right:2px solid black;
+	border-bottom:2px solid black;
+	text-decoration:none;
+	font-family:"Arial";
+}
+/*Login END*/
+
+.footer{
+	display:block;
+	background-color:rgb(0, 128, 0);
+	color:white;
+	
+	min-height: 300px;
+}
+
+
+
+

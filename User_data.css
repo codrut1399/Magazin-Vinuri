@@ -1,0 +1,55 @@
+#data-container {
+	background-color: rgba(255,255,255,0.8);
+	width:40%;
+	height:500px;
+	display:block;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50px;
+	margin-top:100px;
+	padding-left:100px;
+
+}
+#data{
+	float:left;
+}
+
+#icon{
+	float:right;
+	margin-right:180px;
+}
+#savePhone{
+	color:white;
+	background-color:green;
+	padding:2px;
+	font-size:15px;
+	border-left:1px solid gray;
+	border-top:1px solid gray;
+	border-right:1px solid black;
+	border-bottom:1px solid black;
+	text-decoration:none;
+	font-family:"Arial";
+	
+}
+.button{
+	border:none;
+	color:green;
+	cursor:pointer;
+}
+label{
+font-size:20px;
+color:green;
+
+
+margin-right:10px;
+
+}
+.data{
+	
+	font-size:18px;
+}
+form input[type=text]{
+	
+}
+	
+
